@@ -170,8 +170,8 @@ const declareWeapon = function() {
 changeScenario();
 const verdict = declareWeapon();
 console.log(verdict);
-/*This will display The murderer is Mrs Peacock, because murderer is equal to Professor plum
-and then we change it via let to Mrs Peacock due to the condition in the if statement being met..not sure on this one i feel as if it may read professor plum not sure why i think that */
+/*This will display The murderer is Professor plum
+due to Mrs Peacock being outside of the scope*/
 Episode 9
 let murderer = 'Professor Plum';
 
